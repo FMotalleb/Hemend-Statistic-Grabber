@@ -4,6 +4,7 @@
 #define BEEP_PIN A0
 void error()
 {
+
     tone(BEEP_PIN, 900);
     delay(500);
     noTone(BEEP_PIN);
@@ -24,6 +25,7 @@ void SDCardModule::init()
     if (!SD.begin(SD_CARD_SELECT, SD_CARD_MOSI, SD_CARD_MISO, SD_CARD_CLOCK))
     {
         Serial.println("Card Error");
+        error();
     }
 
     SD.mkdir((char *)LOG_FILE_BACKUP_DIR);

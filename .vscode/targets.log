@@ -1,0 +1,293 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Sep 17 10:07:40 2023
+
+# Variables
+
+# environment
+JAVA_HOME = /var/lib/flatpak/runtime/org.freedesktop.Sdk.Extension.openjdk11/x86_64/22.08/3bebed9ac84d1e741549b534df7128f3807d61cce4eb8da09fe6ccfd9c75dffb/files/jvm/openjdk-11.0.19/
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+SSH_AGENT_LAUNCHER = openssh
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = /home/motalleb
+# environment
+GDM_LANG = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+GOPATH = /home/motalleb/go
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/motalleb/Documents/GitHub/Hemend-Statistic-Grabber
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /home/motalleb/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/motalleb/.config/Code/CachedData/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.FQDLB2
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/motalleb/Documents/GitHub/Hemend-Statistic-Grabber
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+WAYLAND_DISPLAY = wayland-0
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = gnome
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 27584
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/motalleb:@/tmp/.ICE-unix/3807,unix/motalleb:/tmp/.ICE-unix/3807
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ANDROID_SDK_ROOT = /home/motalleb/Android/Sdk
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+GCC_COLORS = error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01
+# environment
+MAKELEVEL := 0
+# environment
+SSLKEYLOGFILE = /home/motalleb/.ssl-key.log
+# environment
+IM_CONFIG_CHECK_ENV = 1
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/motalleb/._apps/go/bin:/home/motalleb/go/bin:/home/motalleb/bin:/home/motalleb/Android/Sdk/platform-tools:/home/motalleb/Android/Sdk/tools/bin:/home/motalleb/Android/Sdk/cmdline-tools/bin:/var/lib/flatpak/runtime/org.freedesktop.Sdk.Extension.openjdk11/x86_64/22.08/3bebed9ac84d1e741549b534df7128f3807d61cce4eb8da09fe6ccfd9c75dffb/files/jvm/openjdk-11.0.19/bin/:/home/motalleb/.pub-cache/bin:/home/motalleb/Android/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+GOROOT = /home/motalleb/._apps/go
+# environment
+INVOCATION_ID = feb9ff23714b4cf79c12612796660d21
+# environment
+USERNAME = motalleb
+# environment
+GNOME_SETUP_DISPLAY = :1
+# automatic
+?F = $(notdir $?)
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+XDG_CURRENT_DESKTOP = GNOME
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = gnome
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = motalleb
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+PLATFORMIO_PATH = /home/motalleb/.platformio/penv/bin:/home/motalleb/.platformio/penv:/home/motalleb/go/bin:/home/motalleb/._apps/go/bin:/home/motalleb/bin:/home/motalleb/Android/Sdk/platform-tools:/home/motalleb/Android/Sdk/tools/bin:/home/motalleb/Android/Sdk/cmdline-tools/bin:/var/lib/flatpak/runtime/org.freedesktop.Sdk.Extension.openjdk11/x86_64/22.08/3bebed9ac84d1e741549b534df7128f3807d61cce4eb8da09fe6ccfd9c75dffb/files/jvm/openjdk-11.0.19/bin/:/home/motalleb/.pub-cache/bin:/home/motalleb/Android/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin
+# makefile
+.DEFAULT_GOAL := 
+# environment
+SYSTEMD_EXEC_PID = 3836
+# environment
+DISPLAY = :0
+# environment
+USER = motalleb
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+MANAGERPID = 1788
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 27584
+# environment
+_ = /usr/share/code/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+JOURNAL_STREAM = 8:31403
+# environment
+GOMODCACHE = /home/motalleb/go/pkg/mod
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PLATFORMIO_IDE = 3.3.1
+# environment
+HOME = /home/motalleb
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-c2924d6a-1.82-main.sock
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = gnome
+# variable set hash-table stats:
+# Load=104/1024=10%, Rehash=0, Collisions=6/131=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 7750443): 12 files, no impossibilities.
+
+# 12 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+ 
+# strcache buffers: 1 (0) / strings = 20 / storage = 162 B / avg = 8 B
+# current buf: size = 8162 B / used = 162 B / count = 20 / avg = 8 B
+
+# strcache performance: lookups = 23 / hit rate = 13%
+# hash-table stats:
+# Load=20/8192=0%, Rehash=0, Collisions=0/23=0%
+# Finished Make data base on Sun Sep 17 10:07:40 2023
+
+ 

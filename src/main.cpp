@@ -8,14 +8,14 @@
 
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
-
 #define BEEP_PIN A0
 
+LiquidCrystal_I2C lcd(0x27, 20, 4);
 RFID rfid_module = RFID();
 SDCardModule sdcard_module = SDCardModule();
 TimeModule time_module = TimeModule();
 SerialModule serial = SerialModule();
-LiquidCrystal_I2C lcd(0x27, 20, 4);
+
 void initModules();
 void updateModules();
 void handleSerial();
@@ -25,6 +25,10 @@ void beep();
 
 void setup()
 {
+  lcd.init();
+  lcd.backlight();
+  lcd.clear();
+  delay(2000);
   Serial.begin(9600);
   Serial.setTimeout(500);
   pinMode(BEEP_PIN, OUTPUT);
@@ -168,7 +172,7 @@ String mapIDToName(String uid)
   else if (uid == "73756997")
   {
     result = "S. Gholami";
-  } 
+  }
   else if (uid == "E34C5197")
   {
     result = "H. Ghasemzadeh";
